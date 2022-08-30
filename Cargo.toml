@@ -7,12 +7,3 @@ description = "A twitter bot for archiving news articles."
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = "*"
-serde_derive = "*"
-serde_json = "*"
-log = "*"
-chrono = "*"
-tokio = "*"
-tokio-core = "*"
-futures = "*"
-egg-mode = "*"

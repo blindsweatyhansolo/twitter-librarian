@@ -1,7 +1,5 @@
 use std::env;
 use std::error::Error;
-use std::fs::File;
-use std::path::Path;
 
 pub struct Config {
     pub consumer_key: String,
@@ -18,7 +16,7 @@ impl Config {
         let access_key = env::var("TWT_ACCESS_TOKEN_PIRATE")?;
         let access_secret = env::var("TWT_ACCESS_TOKEN_SECRET_PIRATE")?;
         let bearer_token = env::var("TWT_BEARER_TOKEN")?;
-        
+
         Ok(Config { 
             consumer_key,
             consumer_secret,
