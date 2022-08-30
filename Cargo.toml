@@ -1,5 +1,5 @@
 [package]
-name = "twitter-librarian"
+name = "twitter_librarian"
 version = "0.1.0"
 edition = "2021"
 description = "A twitter bot for archiving news articles."
@@ -7,3 +7,7 @@ description = "A twitter bot for archiving news articles."
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+log = "0.4"

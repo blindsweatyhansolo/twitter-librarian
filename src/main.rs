@@ -1,3 +1,6 @@
+mod config;
+
+
 fn main() {
-    println!("Hello, world!");
+    let twitter_config = config::Config::from_env();
 }
