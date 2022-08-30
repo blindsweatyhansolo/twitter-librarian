@@ -24,7 +24,7 @@ impl Config {
         info!("Loading secrets from system environment...");
 
         let consumer_key = env::var("TWT_API_KEY_PIRATE")?;
-        let consumer_secret = env::var("TWT_API_SECRETTWT_API_SECRET_PIRATE")?;
+        let consumer_secret = env::var("TWT_API_SECRET_PIRATE")?;
         let access_key = env::var("TWT_ACCESS_TOKEN_PIRATE")?;
         let access_secret = env::var("TWT_ACCESS_TOKEN_SECRET_PIRATE")?;
 
